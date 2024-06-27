@@ -1,0 +1,39 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="40px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter number"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your number"
+        android:inputType="number"
+        android:id="@+id/evenoddnum"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#379777"
+        android:text="Check if Even Or ODD"
+        android:textColor="#FFFFFF"
+        android:layout_margin="20px"
+        android:id="@+id/evenoddcheckbtn"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Back to menu"
+        android:layout_margin="20px"
+        android:background="#379777"
+        android:id="@+id/evenoddbacktomenubtn"
+        />
+</LinearLayout>
